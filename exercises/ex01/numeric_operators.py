@@ -1,4 +1,4 @@
-"""This program practices numberic operators, type conversions, and string concatenation."""
+"""This program practices numeric operators, type conversions, and string concatenation."""
 
 __author__ = "730168318"
 
@@ -15,9 +15,8 @@ print(left_hand_side + " ** " + right_hand_side + " is " + str(exponent_input))
 divide_input = int(left_hand_side) / int(right_hand_side) 
 print(left_hand_side + " / " + right_hand_side + " is " + str(divide_input))
 
-integer_divsion = int(left_hand_side) // int(right_hand_side)
-print(left_hand_side + " // " + right_hand_side + " is " + str(integer_divsion))
+integer_division = int(left_hand_side) // int(right_hand_side)
+print(left_hand_side + " // " + right_hand_side + " is " + str(integer_division))
 
 remainder_input = int(left_hand_side) % int(right_hand_side)
 print(left_hand_side + " % " + right_hand_side + " is " + str(remainder_input))
-
