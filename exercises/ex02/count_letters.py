@@ -10,7 +10,7 @@ i: int = 0
 
 count = 0
 
-while i < (len(enter_word) - 1):
+while i < (len(enter_word)):
     if enter_word[i] == letter_type:
         count = count + 1
     i = i + 1

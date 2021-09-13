@@ -7,3 +7,5 @@ user_name: str = input("What is your name? ")
 print("Hello, " + user_name + ". You are so awesome and smart!")
 print("You are going to crush the quiz on Tuesday, " + user_name + ".")
 print(user_name + ", I love you and you are beautiful!")
+
+type(9 / len(str(110)))

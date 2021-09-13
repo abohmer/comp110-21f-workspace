@@ -13,7 +13,7 @@ repeat_type = beat_type
 
 counter: int = 0
 if times_input <= 0: 
-    print("No beat... ")
+    print("No beat...")
 else:
     while counter < (times_input - 1): 
         repeat_type = repeat_type + beat_space
